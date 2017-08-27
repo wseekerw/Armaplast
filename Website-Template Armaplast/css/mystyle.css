@@ -1,0 +1,1302 @@
+@font-face {
+	font-family: 'Notosans';
+	src: url(../fonts/notosans.ttf);
+}
+
+@font-face {
+	font-family: 'NotosansBold';
+	src: url(../fonts/notosansbold.ttf);
+}
+
+@font-face {
+	font-family: 'PtsansBold';
+	src: url(../fonts/ptsansbold.ttf);
+}
+
+@font-face {
+	font-family: 'Ptsans';
+	src: url(../fonts/ptsans.ttf);
+}
+
+@font-face {
+	font-family: 'ProximaNovaRegular';
+	src: url(../fonts/Proxima_Nova_Regular.ttf);
+}
+
+.links:hover {
+    background-color: #f5be02;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.Map_link:hover {
+    text-decoration: none;
+    color: #f5be02;
+}
+
+.buttonRow1:hover {
+    background-color: #f5be02;
+}
+
+.Row2_button:hover {
+    background-color: #f5be02;
+}
+
+.container {
+    width: 960px;
+}
+
+.links,.Row5Row1bigtext,.Row5Row2smalltext,.Row6smalltext1,.Row6bigtext,.Row7bigtext,.Row7button{
+    text-align: center;
+}
+
+#row1 {
+    height: 50px;
+    background-color: #f4f9f3; 
+}
+
+#row2 {
+     height: 121px;
+     background-color: #ffffff;
+}
+
+#row3 {
+    background-color: #383933;
+}
+
+#row3_1 {
+    height: 3px;
+    
+}
+
+#row31green {
+    background-color: #01b403;
+    height: 3px;
+}
+
+#row31orange {
+    background-color: #f5be02;
+    height: 3px;
+}
+
+#row4 {
+    height: 682px;
+    background-color: #f4f9f3;
+}
+
+#row5 {
+    height: 561px;
+    background-image: url(../img/Row5-background-Image.jpg);
+}
+
+#row6 {
+    height: 425px;
+    background-image: url(../img/Row6-background-Image.jpg);
+}
+
+#row7 {
+    height: 497px;
+    background-color: #f4f9f3;
+}
+
+#row8 {
+    height: 229px;
+    background-color: #ffffff;
+}
+
+#row9 {
+    height: 120px;
+    background-image: url(../img/Row9_BackgroundImage.jpg);
+}
+
+#row9_1 {
+    height: 5px;
+    background-color: #0e5000;
+}
+
+#row10 {
+    height: 305px;
+    background-color: #383933;
+}
+
+.ContainerForRow1Mail,.buttonRow1,.Row2_button,.Row2ContainerForArmaPlast,#row9,#row5  {
+    background-size: 100% 100%;
+}
+
+.Row1Korzinatext,.Row2text1,.Row2text2,.Row2phone_number,.Row3_Action_text,.Image1smalltext2,.Row9Image1smalltext1,.Row10phonenumber,.links  {
+    font-family: 'NotosansBold';
+}
+
+.ContainerForRow1Mail {
+    height: 50px;
+    width: 50px;
+    background-image: url(../img/Row1_Mail.jpg);
+    margin-left: 735px;
+}
+
+.buttonRow1 {
+    height: 50px;
+    width: 160px;
+    background-color: #0b4b02;
+    background-image: url(../img/Row1buttonBackground.png);
+    border: none;
+    margin-left: 65px;
+}
+
+.Row1Korzinatext {
+    font-size: 14px;
+    margin-top: 4px;
+}
+
+.Row13tovaratext {
+    margin-left: 25px;
+    font-size: 9px;
+    font-family: 'Notosans';
+    margin-top: -12px;
+}
+
+.Row2ContainerForArmaPlast {
+    width: 230px;
+    height: 26px;
+    background-image: url(../img/Armaplast.png);
+    margin-top: 46px;
+}
+
+.Row2text1 {
+    font-size: 11px;
+    color: #888b90;
+    line-height: 19px;
+    margin-left: 45px;
+    margin-top: 33px;
+}
+
+.Row2text2 {
+    font-size: 11px;
+    line-height: 19px;
+    margin-left: 12px;
+    margin-top: 30px;
+}
+
+.ContainerForMapImage {
+    background-image: url(../img/Little_image_for_maplink.png);
+    width: 8px;
+    height: 11px;
+    margin-left: 12px;
+    margin-bottom: -18px;
+}
+
+.Map_link {
+    color: #00b101;
+    font-size: 11px;
+    border-bottom: 1px dashed;
+    font-family: 'Notosans';
+    margin-left: 25px;
+}
+
+.Row2phone_number {
+    font-size: 15px;
+    margin-top: 27px;
+    letter-spacing: 1px;
+}
+
+.Row2_button {
+    width: 160px;
+    height: 32px;
+    background-color: #00b101;
+    border: none;
+    border-radius: 2px;
+    margin-top: -5px;
+    background-image: url(../img/Row2buttonBackground.png);
+}
+
+.Row2_button_text {
+    font-size: 9px;
+    margin-left: 14px;
+    margin-top: 3px;
+}
+
+.navigation {
+	list-style-type: none; 
+    padding: 0px;
+    overflow: hidden;
+    background-color: #383933;
+    height: 47px;
+    margin-left: 144px;
+    width: 600px;
+}
+
+.links {
+	display: block;
+    color: #ffffff;
+    padding: 14px 16px;
+    text-decoration: none;
+	float: left;
+	font-size: 14px;	
+    letter-spacing: 1px;
+}
+
+#Row3Column_height {
+    height: 47px;
+}
+
+.Container_For_little_star {
+    background-image: url(../img/Row_3_little_star.png);
+    width: 10px;
+    height: 9px;
+    margin-top: 19px;
+    margin-left: 78px;
+}
+
+.Row3_Action_text {
+    font-size: 14px;
+    color: #f5be02;
+    margin-top: -14px;
+    margin-left: 95px;
+}
+
+.Row4_thumbnail {
+    width: 310px;
+    margin-top: 23px;
+    background-color: #f4f9f3;
+    margin-left: 5px;
+}
+
+.Row4_thumbnail1 {
+    margin-left: -51px;
+    height: 287px;
+    width: 320px;
+}
+
+.Row4_thumbnail2 {
+    margin-left: 70px;
+}
+
+.Row4_thumbnail, .Row4_thumbnail1, .Row4_thumbnail2 {
+    width: 290px;
+}
+
+
+.Row4_thumbnail3 {
+    width: 476px;
+    margin-left: 3px;
+}
+
+.Row4_thumbnail4 {
+    margin-left: -14px;
+    width: 476px;
+    height: 271px;
+}
+
+
+
+.Row4_image1_text {
+    line-height: 20px;
+    font-family: 'PtsansBold';
+    letter-spacing: 1px;
+    font-size: 18px;
+    margin-top: 15px;
+    color: black;
+}
+
+.Row5Row1bigtext {
+    font-family: 'PtsansBold';
+    color: #00b101;
+    font-size: 31px;
+    letter-spacing: 1px;
+    margin-top: 55px;
+}
+
+.Row5Row2smalltext {
+    font-family: 'Ptsans';
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 22px;
+    word-spacing: 1px;
+}
+
+.Row5Row3smalltext {
+    font-size: 13px;
+    text-align: left;
+    margin-top: 42px;
+    font-family: 'ProximaNovaRegular';
+    word-spacing: 1px;
+    font-weight: 590;
+    letter-spacing: 1px;
+    margin-left: 100px;
+    padding-left:30px;
+    padding-right: 30px;
+}
+
+.Row6bigtext {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'PtsansBold';
+    letter-spacing: 2px;
+    margin-top: 81px;
+}
+
+.ContainerForRow6Image1 {
+    background-image: url(../img/Row6_Image1.png);
+    width: 42px;
+    height: 42px;
+    margin-top: 60px;
+    margin-left: 150px;
+}
+
+.ContainerForRow6Image2 {
+    background-image: url(../img/Row6_Image2.png);
+    width: 42px;
+    height: 45px;
+    margin-top: 60px;
+    margin-left: 45px;
+}
+
+.ContainerForRow6Image3 {
+    background-image: url(../img/Row6_Image3.png);
+    width: 43px;
+    height: 47px;
+    margin-top: 60px;
+    margin-left: 115px;
+    background-size: 100% 100%;
+}
+
+.Row6smalltext1 {
+    color: #ffffff;
+    font-family: 'Ptsans';
+    margin-top: 25px;
+    font-size: 13px;
+    word-spacing: 1px;
+    margin-left: -45px;
+}
+
+.Row6smalltext2 {
+    margin-left: -85px;
+}
+
+.Row7bigtext {
+    color: #03b605;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-family: 'PtsansBold';
+    margin-top: 40px;
+}
+
+.Row7_thumbnail {
+    width: 203px;
+    margin-top: 40px;
+    background-color: #f4f9f3;
+    height: 240px;
+}
+
+.Image1smalltext1 {
+    color: #21bb21;
+    font-family: 'PtsansBold';
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.Image1smalltext2 {
+    font-size: 3mm;
+    text-decoration: underline;
+    font-weight: bold;
+    color: black;
+    font-size: 10px;
+}
+
+.Row7button {
+    border-radius: 0.0005mm;
+    height: 37px;
+    width: 160px;
+    font-family: 'Notosans';
+    margin-left: 400px;
+    font-size: 9px;
+    margin-top: 30px;
+    letter-spacing: 2px;
+    background-image: none;
+}
+
+/* Carousel control start*/
+
+#rowCarousel {
+    margin-left: 70px;
+    width: 820px;
+}
+
+#myCarousel {
+    height: 50px;
+    margin-top: 80px;
+}
+
+.carousel-control.left, .carousel-control.right {
+   background-image: none !important;
+   filter:none !important;
+}
+
+.carousel-control .glyphicon-triangle-right, .carousel-control .sr-only {
+  right: -15px; 
+  color: #00b101; 
+  top: 15px;
+}
+
+.carousel-control .glyphicon-triangle-right:hover {
+    color: #f5be02;
+}
+
+.carousel-control .glyphicon-triangle-left:hover {
+    color: #f5be02;
+}
+
+.carousel-control .glyphicon-triangle-left, .carousel-control .sr-only {
+    left: -15px;
+    color: #00b101; 
+    top: 15px;
+}
+
+.rowposition {
+    margin-top: 15px;
+}
+
+.carouselImage1 {
+    margin-top: -5px;
+}
+
+.carouselImage3 {
+    margin-left: -23px;
+}
+
+.carouselImage4 {
+    margin-left: -18px;
+}
+
+/*Carousel control end*/
+
+.ContainerForRow9Image1,.ContainerForRow9Image2,.ContainerForRow9Image3,.ContainerForRow9Image4,.ContainerForRow9Image5 {
+    margin-top: 45px;
+}
+
+.ContainerForRow9Image1 {
+    background-image: url(../img/Row9_Image1.png);
+    width: 26px;
+    height: 25px;
+}
+
+.ContainerForRow9Image2 {
+    background-image: url(../img/Row9_Image2.png);
+    width: 38px;
+    height: 24px;
+    margin-left: -120px;
+}
+
+.ContainerForRow9Image3 {
+    background-image: url(../img/Row9_Image3.png);
+    width: 30px;
+    height: 29px;
+    margin-left: -35px;
+}
+
+.ContainerForRow9Image4 {
+    background-image: url(../img/Row9_Image4.png);
+    width: 31px;
+    height: 31px;
+    margin-left: -25px;
+}
+
+.ContainerForRow9Image5 {
+    background-image: url(../img/Row9_Image5.png);
+    width: 31px;
+    height: 35px;
+    margin-left: 75px;
+}
+
+.Row9Image1smalltext1 {
+    color: #ffffff;
+    margin-left: 35px;
+    margin-top: 30px;
+    font-size: 11px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+}
+
+.Row9smalltext2 {
+    margin-left: 43px;
+}
+
+.ContainerforRow10ArmaPlast {
+    background-image: url(../img/Row10ArmaPlast.png);
+    width: 151px;
+    height: 18px;
+    margin-top: 45px;
+    background-size: 100% 100%;
+}
+
+.Row10smalltext {
+    color: #737577;
+    margin-bottom: 1px;
+    font-size: 10px;
+    font-family: 'Notosans';
+}
+
+.Row10smalltextmargin {
+    margin-top: 7px;
+}
+
+.Row10phonenumber {
+    color: #bdbdc3;
+    font-size: 19px;
+    margin-top: 45px;
+    margin-left: 270px;
+}
+
+.Row10_button {
+    margin-top: -5px;
+    margin-left: 275px;
+}
+
+.e-mail1 {
+    font-family: 'Notosans';
+    color: #5f6167;
+    margin-left: 275px;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+.e-mail2 {
+    color: #f7bc00;
+    text-decoration: underline;
+}
+
+@media (min-width: 960px) and (max-width: 1279px) {
+    .Row4_thumbnail2 {
+        margin-left: 82px;
+    } 
+
+    .Row4_thumbnail1 {
+        margin-left: -74px;
+    }
+    .Row4_thumbnail3 {
+        margin-left: 2px;
+        width: 400px;
+    }
+    .Row4_thumbnail4 {
+        margin-left: 52px;
+        width: 400px;
+        height: 235px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+    
+.container {
+    width: 1280px;
+}
+
+.buttonRow1 {
+    margin-left: 147px;
+}
+
+.ContainerForRow1Mail {
+    margin-left: 1059px;
+}
+
+.Row2text1,.Row2text2 {
+    font-size: 13px;
+} 
+
+.Row2_button {
+    margin-left: 56px;
+}
+
+.Row2phone_number {
+    font-size: 17px;
+    margin-left: 45px;
+}
+
+.navigation {
+    margin-left: 330px;
+} 
+
+.Row4_thumbnail {
+    margin-left: 155px;
+}
+
+.Row4_thumbnail2 {
+    margin-left: 52px;
+}
+
+.Row4_thumbnail1 {
+    margin-left: -54px;
+}
+
+.Row4_thumbnail3 {
+        margin-left: 150px;
+        width: 400px;
+    }
+.Row4_thumbnail4 {
+        margin-left: 52px;
+        width: 400px;
+        height: 235px;
+}
+
+.Row5Row3smalltext {
+    margin-left: 225px;
+}
+
+.ContainerForRow6Image1 {
+    margin-left: 215px;
+}
+
+.ContainerForRow6Image2 {
+    margin-left: 90px;
+}
+
+.ContainerForRow6Image3 {
+    margin-left: 150px;
+}
+
+.Row7_thumbnail {
+    margin-left: 45px;
+}
+
+.Row7button {
+    margin-left: 555px;
+}
+
+#rowCarousel {
+    width: 1160px;
+}
+
+.carouselImage1 {
+    margin-left: 20px;
+}
+
+.ContainerForRow9Image1 {
+    margin-left: 40px;
+}
+
+.ContainerForRow9Image2 {
+    margin-left: -140px;
+}
+
+.ContainerForRow9Image5 {
+    margin-left: 120px;
+}
+
+.Row10_button,.e-mail1  {
+    margin-left: 470px;
+}
+
+.Row10phonenumber {
+    margin-left: 460px;
+}
+
+}
+
+@media (min-width: 1440px) {
+    
+.container {
+    width: 1440px;
+}
+
+.buttonRow1 {
+    margin-left: 186px;
+}
+
+.ContainerForRow1Mail {
+    margin-left: 1215px;
+}
+
+.Row2text1,.Row2text2 {
+    font-size: 16px;
+} 
+
+.Row2_button {
+    margin-left: 74px;
+}
+
+.Row2phone_number {
+    font-size: 19px;
+    margin-left: 48px;
+}
+
+.navigation {
+    margin-left: 330px;
+    width: 800px;
+} 
+
+.links,.Row3_Action_text {
+    letter-spacing: 2px;
+    font-size: 16px;
+}
+
+.Row4_thumbnail {
+    margin-left: 200px;
+}
+
+.Row4_thumbnail2 {
+    margin-left: 67px;
+}
+
+.Row4_thumbnail1 {
+    margin-left: -35px;
+}
+
+.Row4_thumbnail4 {
+    margin-left: 9px;
+}
+
+.Row5Row3smalltext {
+    margin-left: 305px;
+}
+
+.ContainerForRow6Image1 {
+    margin-left: 247px;
+}
+
+.ContainerForRow6Image2 {
+    margin-left: 107px;
+}
+
+.ContainerForRow6Image3 {
+    margin-left: 185px;
+}
+
+.Row7_thumbnail {
+    margin-left: 69px;
+}
+
+.Row7button {
+    margin-left: 655px;
+}
+
+#rowCarousel {
+    width: 1360px;
+}
+
+.carouselImage1 {
+    margin-left: 35px;
+}
+
+.ContainerForRow9Image1 {
+    margin-left: 65px;
+}
+
+.ContainerForRow9Image2 {
+    margin-left: -155px;
+}
+
+.ContainerForRow9Image5 {
+    margin-left: 135px;
+}
+
+.ContainerforRow10ArmaPlast {
+    margin-left: 60px;
+}
+
+.Row10smalltext {
+    font-size: 13px;
+    margin-left: 60px;
+}
+
+.Row10phonenumber {
+    margin-left: 480px;
+}
+
+.Row10_button,.e-mail1  {
+    margin-left: 490px;
+}
+}
+
+@media (min-width: 768px) and (max-width: 959px) {
+    
+.container {
+    width: 768px;
+}
+
+.buttonRow1 {
+    margin-left: 17px;
+}
+
+.ContainerForRow1Mail {
+    margin-left: 543px;
+}
+
+.Row2ContainerForArmaPlast {
+    width: 200px;
+    height: 20px;
+}
+
+.Row2text2 {
+    margin-left: -28px;
+}
+
+.ContainerForMapImage {
+    margin-left: -28px;
+}
+
+.Map_link {
+    margin-left: -16px;
+}
+
+.Row2phone_number {
+    margin-left: -25px;
+}
+
+.Row2_button {
+    margin-left: -31px;
+}
+
+.navigation {
+    margin-left: 110px;
+}
+
+.links,.Row3_Action_text  {
+	font-size: 11px;	
+}
+
+.Container_For_little_star {
+    margin-top: 16px;
+}
+
+.Row4_thumbnail {
+    width: 250px;
+}
+
+.Row4_thumbnail1 {
+    margin-left: -74px;
+    height: 246px;
+}
+
+.Row4_thumbnail2 {
+    margin-left: 50px;
+}
+
+.Row4_thumbnail3 {
+    width: 380px;
+}
+
+.Row4_thumbnail4 {
+    width: 380px;
+    height: 227px;
+}
+
+.Row5Row3smalltext {
+    text-align: center;
+    letter-spacing: 0px;
+    margin-left: auto;
+}
+
+.ContainerForRow6Image1 {
+    margin-left: 120px;
+}
+
+.ContainerForRow6Image2 {
+    margin-left: 30px;
+}
+
+.ContainerForRow6Image3 {
+    margin-left: 84px;
+}
+
+.Row7_thumbnail {
+    width: 171px;
+}
+
+.Row7button {
+    margin-left: 300px;
+}
+
+#rowCarousel {
+    margin-left:15px;
+    width: 720px;
+}
+
+.carousel-control .glyphicon-triangle-left, .carousel-control .sr-only {
+    left: -40px; 
+}
+
+.carousel-control .glyphicon-triangle-right, .carousel-control .sr-only {
+  right: -40px; 
+}
+
+.ContainerForRow9Image2 {
+    margin-left: -105px;
+}
+
+.ContainerForRow9Image5 {
+    margin-left: 62px;
+}
+
+.Row10phonenumber {
+    margin-left: 208px;
+}
+
+.Row10_button,.e-mail1  {
+    margin-left: 208px;
+}
+    .Row4_thumbnail {
+        margin-left: -20px;
+        width: 220px;
+        height: 240px;
+    }   
+ 
+    .Row4_thumbnail2 {
+        margin-left: 72px;
+    } 
+
+    .Row4_thumbnail1 {
+        margin-left: -64px;
+    }
+    .Row4_thumbnail3 {
+        margin-left: -20px;
+        width: 350px;
+        height: 235px;
+    }
+    .Row4_thumbnail4 {
+        margin-left: 12px;
+        width: 350px;
+        height: 235px;
+    }
+    
+}
+
+@media (min-width: 412px) and (max-width: 767px) {
+    
+.container {
+    width: 100vw;
+}
+
+.ContainerForRow1Mail {
+    width: 10vw;
+    margin-left: 47.4vw;
+}
+
+.buttonRow1 {
+    margin-left: -18vw;
+}
+
+#row2,#row4,#row5,#row6,#row7,#row9,#row10 {
+    height: auto;
+}
+
+#row3 {
+    height: 62vw;
+}
+
+#row8 {
+    height: 80vw;
+}
+
+.navigation {
+    height: 50vw;
+    margin-left: 35vw;
+    width: 25vw;
+}
+
+.links {
+    /*padding: 3vw 2vw;*/
+	/*float: left;*/
+	font-size: 3vw;	
+    white-space: nowrap;
+    padding: auto;
+    
+    text-align: center;
+}
+
+.navigation {
+    width: 29vw;
+    
+}
+
+.Row5Row3smalltext {
+    text-align: center;
+    letter-spacing: 0px;
+    margin-left: auto;
+    margin-bottom: 30px;
+}
+
+.Row3_Action_text {
+    font-size: 3vw;
+    margin-left: 40vw;
+}
+
+.Container_For_little_star {
+    margin-left: 37vw;
+    margin-top: 45vw;
+}
+
+.Row2ContainerForArmaPlast {
+    margin-left: 24vw;
+    margin-right: 24vw;
+    width: auto;
+}
+
+.Row2text1,.Row2text2 {
+    text-align: center;
+    margin-left: 0;
+}
+
+.ContainerForMapImage {
+    margin-left: 35vw;
+}
+
+.Map_link {
+    margin-left: 38vw;
+    margin-right: 25vw;
+}
+
+.Row2phone_number {
+    text-align: center;
+}
+
+.Row2_button {
+    width: 35vw;
+    margin-left: 32.5vw;
+    margin-bottom: 30px;
+}
+
+.Row4_thumbnail, .Row4_thumbnail3, Row4_thumbnail4 {
+    width: auto;
+    margin-top: 23px;
+    margin-left: auto;
+}
+
+.ContainerForRow6Image1,.ContainerForRow6Image2,.ContainerForRow6Image3  {
+    margin-left: 40vw;
+}
+
+.Row5Row1bigtext, .Row5Row2smalltext, .Row5Row3smalltext {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+.Row6smalltext1,Row6smalltext2 {
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.Row7_thumbnail {
+    width: auto;
+    margin-left: 20vw;
+    margin-right:20vw;
+}
+
+.Row7button {
+    margin-left: 35vw;
+    width: 30vw;
+    margin-right: auto;
+    
+}
+
+.carouselImage1,.carouselImage2,.carouselImage3,.carouselImage4,.carouselImage5,.carouselImage6 {
+   margin-left: 27vw;
+   margin-bottom: 5vw;
+   width: 15vw; 
+}
+
+.carousel-control .glyphicon-triangle-left, .carousel-control .sr-only {
+    top: 150px; 
+}
+
+.carousel-control .glyphicon-triangle-right, .carousel-control .sr-only {
+    top: 150px; 
+}
+
+.ContainerForRow9Image1,.ContainerForRow9Image2,.ContainerForRow9Image3,.ContainerForRow9Image4,.ContainerForRow9Image5 {
+    margin-left: 30vw; 
+    margin-bottom: 20px;
+}
+
+.Row10phonenumber {
+    margin-left: 1vw;
+}
+
+.Row10_button,.e-mail1  {
+    margin-left: 1vw;
+}
+
+#myCarousel {
+    margin-top: 10vw;
+}
+
+}
+
+@media (min-width: 320px) and (max-width: 411px) {
+    
+.container {
+    width: 100vw;
+}
+
+#row2,#row4,#row5,#row6,#row7,#row9,#row10 {
+    height: auto;
+}
+
+.ContainerForRow1Mail {
+    margin-left: -15px;
+}
+
+.buttonRow1 {
+    margin-left: -67vw;
+}
+
+.Row2ContainerForArmaPlast {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    width: auto;
+}
+
+.Row2text1,.Row2text2 {
+    text-align: center;
+    margin-left: 0;
+}
+
+.ContainerForMapImage {
+    margin-left: 35vw;
+}
+
+.Map_link {
+    margin-left: 38vw;
+    margin-right: 25vw;
+}
+
+.Row2phone_number {
+    text-align: center;
+}
+
+.Row2_button {
+    width: auto;
+    margin-left: 30vw;
+    margin-right: 25vw;
+    margin-bottom: 30px;
+}
+
+#row3 {
+    height: 62vw;
+}
+
+.navigation {
+    height: 50vw;
+    margin-left: 35vw;
+    width: 29vw;
+}
+
+
+.links {
+    padding: 3vw 2vw;
+	/*float: left;*/
+	font-size: 3vw;	
+    white-space: nowrap;
+}
+
+.Row3_Action_text {
+    font-size: 3vw;
+    margin-left: 40vw;
+}
+
+.Container_For_little_star {
+    margin-left: 35vw;
+    margin-top: 40vw;
+}
+
+
+.Row4_thumbnail, .Row4_thumbnail3, Row4_thumbnail4 {
+    width: auto;
+    margin-top: 23px;
+    margin-left: auto;
+}
+
+.Row4_thumbnail4 {
+    height: 200px;
+}
+
+.Row5Row3smalltext {
+    text-align: center;
+    letter-spacing: 0px;
+    margin-left: auto;
+    margin-bottom: 30px;
+    font-size: 10px;
+}
+
+.ContainerForRow6Image1,.ContainerForRow6Image2,.ContainerForRow6Image3  {
+    margin-left: 36vw;
+}
+
+.Row6smalltext1,Row6smalltext2 {
+    text-align: center;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.Row7_thumbnail {
+    width: 60vw;
+    margin-left: 20vw;
+}
+
+.Row7_thumbnail {
+    width: auto;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+#row8 {
+    height: 90vw;
+}
+
+.carouselImage1,.carouselImage2,.carouselImage3,.carouselImage4,.carouselImage5,.carouselImage6 {
+   margin-left: 12vw;
+   margin-bottom: 5vw; 
+}
+
+#myCarousel {
+    margin-top: 5vw;
+}
+
+.carousel-control .glyphicon-triangle-left, .carousel-control .sr-only {
+    top: 120px; 
+}
+
+.carousel-control .glyphicon-triangle-right, .carousel-control .sr-only {
+    top: 120px; 
+}
+
+.ContainerForRow9Image1,.ContainerForRow9Image2,.ContainerForRow9Image3,.ContainerForRow9Image4,.ContainerForRow9Image5 {
+    margin-left: 28vw; 
+    margin-bottom: 20px;
+}
+
+.Row10phonenumber {
+    margin-left: 1vw;
+}
+
+.Row10_button,.e-mail1  {
+    margin-left: 1vw;
+}
+
+.Row7button {
+    margin-left: 30vw;
+    width: 40vw;
+    margin-right: auto;
+    
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
