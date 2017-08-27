@@ -1,1 +1,3 @@
-# Armaplast
+# Template Armaplast
+
+Responsive Template
